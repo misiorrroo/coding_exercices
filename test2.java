@@ -17,7 +17,7 @@ class Test2 {
         max = nums[0];
         for(int i=0; i < 10; i++) { 
         if(numbers[i] > max) max = numbers[i];
-        int c = findMin(); 
+        int c = findMax(); 
     }
 
     public static float findAverage(int[] array) {
@@ -30,6 +30,7 @@ class Test2 {
         // one mają conajmniej jeden element
         // testy
         System.out.println("low value" + min);
+        System.out.println("max value" + max);
     }
 
 }
