@@ -1,36 +1,42 @@
 class Test2 {
-
-    public static int findMin(int [] array) {
-    int numbers[]= {5484,231,4,64,613};
-    int nums[] = new int[5]; 
-    int min;
-    int max;
-    int avr;
-    {
-        min = nums[0];
-        for(int i=0; i < 10; i++) { 
-        if(numbers[i] < min) min = numbers[i];
-        int c = findMin(); 
-       }
-
     public static int findMax(int[] array) {
-        max = nums[0];
-        for(int i=0; i < 10; i++) { 
-        if(numbers[i] > max) max = numbers[i];
-        int c = findMax(); 
+        int max = array[0];
+        for (int i = 1; i < array.length; i++) {
+            if (array[i] > max) {
+                max = array[i];
+            }
+        }
+        return max;
     }
 
-    public static float findAverage(int[] array) {
-        return 0;
+    public static int findMin(int[] array) {
+        int min = array[0];
+        for (int i = 1; i < array.length; i++) {
+            if (array[i] < min) {
+                min = array[i];
+            }
+        }
+        return min;
+    }
 
+    public static double findAvr(int[] array) {
+        int sum = 0;
+        for (int i = 0; i < array.length; i++)
+            sum = sum + array[i];
+        double avr = sum / (double) array.length;
+        return avr;
     }
 
     public static void main(String args[]) {
-        int c = findMin(min);
+
         // one mają conajmniej jeden element
         // testy
-        System.out.println("low value" + min);
+        int max = findMax();
+        int min = findMin();
+        double avr = findAvr();
         System.out.println("max value" + max);
+        System.out.println("min value" + min);
+        System.out.println("avaerage value" + avr);
     }
 
 }
