@@ -28,12 +28,12 @@ class Test2 {
     }
 
     public static void main(String args[]) {
-
+	int tab[] = {4,6,87, 99, 23}
         // one mają conajmniej jeden element
         // testy
-        int max = findMax();
-        int min = findMin();
-        double avr = findAvr();
+        int max = findMax(tab[]);
+        int min = findMin(tab[]);
+        double avr = findAvr(tab[]);
         System.out.println("max value" + max);
         System.out.println("min value" + min);
         System.out.println("avaerage value" + avr);
