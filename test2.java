@@ -23,7 +23,7 @@ class Test2 {
         int sum = 0;
         for (int i = 0; i < array.length; i++)
             sum = sum + array[i];
-        double avr = sum / (double) array.length;
+        double avr = (double) sum / array.length;
         return avr;
     }
 
