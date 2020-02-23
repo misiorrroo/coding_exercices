@@ -1,4 +1,5 @@
 class Test2 {
+	
     public static int findMax(int[] array) {
         int max = array[0];
         for (int i = 1; i < array.length; i++) {
@@ -21,7 +22,7 @@ class Test2 {
 
     public static double findAvr(int[] array) {
         int sum = 0;
-        for (int i = 0; i < array.length; i++){
+        for (int i = 0; i < array.length; i++) {
             sum = sum + array[i];
         }
         double avr = (double) sum / array.length;
@@ -30,14 +31,13 @@ class Test2 {
 
     public static void main(String args[]) {
 	int[] tab = {4, 6, 87, 99, 23};
-        // one mają conajmniej jeden element
-        // testy
+	    
         int max = findMax(tab);
         int min = findMin(tab);
         double avr = findAvr(tab);
+	    
         System.out.println("max value " + max);
         System.out.println("min value " + min);
-        System.out.println("avaerage value " + avr);
+        System.out.println("average value " + avr);
     }
-
 }
