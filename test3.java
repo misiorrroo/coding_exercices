@@ -1,3 +1,4 @@
+import java.util.Arrays;
 //W test3.java zrób funkcję public static int findSecondMax(int[] array)
 class test3 {
     public static int findSecondMax(int[] array) {
@@ -15,9 +16,9 @@ class test3 {
             return secondmax;             //cos jest tu zjebane wiem ze mialem nie wrzucac nie kompilujacego sie kodu ale nie wiem co tu jest nie OK.
     }
     public static void main(String args[]) {
-        int[] tab = {-5, -7, -10, -3, -4};
+        int[] tab = {5 ,4 ,3 ,2 ,1};
+        Arrays.sort(tab);
         int secondmax = findSecondMax(tab);
         System.out.println("second max value " + secondmax);
     }
 }
-
