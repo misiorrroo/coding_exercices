@@ -1,3 +1,4 @@
+
 import java.util.Arrays;
 //W test3.java zrób funkcję public static int findSecondMax(int[] array)
 class test3 {
@@ -5,7 +6,10 @@ class test3 {
         
         int max = array[0];
         int secondmax = array[0];
-        for (int i = 0; i < array.length; i++) {          
+        if(max > secondmax){
+            max = array[1];
+        } 
+        for (int i = 0; i < array.length; i++) {    
             if (array[i] > max) {
                 secondmax = max;
                 max = array[i];
