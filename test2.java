@@ -21,14 +21,15 @@ class Test2 {
 
     public static double findAvr(int[] array) {
         int sum = 0;
-        for (int i = 0; i < array.length; i++)
+        for (int i = 0; i < array.length; i++){
             sum = sum + array[i];
+        }
         double avr = (double) sum / array.length;
         return avr;
     }
 
     public static void main(String args[]) {
-	int[] tab = {4,6,87, 99, 23};
+	int[] tab = {4, 6, 87, 99, 23};
         // one mają conajmniej jeden element
         // testy
         int max = findMax(tab);
