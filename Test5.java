@@ -1,5 +1,5 @@
 class Test5 {
-    boolean isLeap;
+    boolean isLeap = false;
     int year;
 
     public static boolean isLeap(int year) {
