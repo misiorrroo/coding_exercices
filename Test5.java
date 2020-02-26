@@ -1,5 +1,5 @@
 class Test5 {
-    boolean isLeap = false;
+    boolean c = leapYear(year);
     int year;
 
     public static boolean isLeap(int year) {
@@ -16,7 +16,7 @@ class Test5 {
 
     public static void main(String args[]) {
 
-        boolean c = leapYear(year);
+        boolean c = leapYear(2005);
         System.out.println(c);
 
     }
