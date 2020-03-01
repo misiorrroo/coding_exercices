@@ -4,20 +4,22 @@ class Test4 {
         {
             int min = array[0];
             int sum = 0;
-            for (int i = 1; i < array.length; i++) {
+            for (int i = 0; i < array.length; i++) {
                 if (array[i] < min) {
                     min = array[i];
                 }
             }
             return min;
         }
-        int i;
-        int sum = 0;
-        for (i = 0; i < array.length; i++)
-        sum += array[i];
-        return sum;
-        int summin = sum - min;           //Tutaj jest jakiś problem nie wiem czemu ta funkcja nie zwraca tego co juz wczesniej policzyla
-        return summin;
+        {
+            int i;
+            int sum = 0;             //Probowałem zrobić coś takiego tutaj =====>>> int min = min; ale wszystko sie swieci na czerwono i nie działą
+            for (i = 0; i < array.length; i++)
+            sum += array[i];
+            return sum;
+            int summin = sum - min; // Tutaj jest jakiś problem nie wiem czemu ta funkcja nie zwraca tego co juz wczesniej policzyla
+            return summin;
+        }
     }
 
     public static void main(String args[]) {

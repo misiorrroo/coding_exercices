@@ -13,7 +13,7 @@ class Test5 {
 
     public static void main(String args[]) {
 
-        boolean c = isLeap(year);
+        boolean c = isLeap(215);
         if (c = true);
         System.out.println("Rok przestepny to:" + c);
 
