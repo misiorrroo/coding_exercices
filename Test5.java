@@ -12,10 +12,13 @@ class Test5 {
     }
 
     public static void main(String args[]) {
-
-        boolean c = isLeap(215);
-        if (c = true);
-        System.out.println("Rok przestepny to:" + c);
-
+        int year = 2018;
+        boolean c = isLeap(year);
+        if (c = true){
+        System.out.println("Rok przestepny");
+        }
+        else {
+        System.out.println("Rok nie przestepny to:");
+        }
     }
 }
