@@ -14,7 +14,7 @@ class Test5 {
     public static void main(String args[]) {
         int year = 2018;
         boolean c = isLeap(year);
-        if (c = true){
+        if (c == true){
         System.out.println("Rok przestepny");
         }
         else {
