@@ -4,10 +4,10 @@ public class Test5 {
     else{return false;}
     }
     public static void main(String args[]) {
-        int year = 2018;
+        int year = 2020;
         boolean c = isLeap(year);
         if (c == true){
-        System.out.println("Rok przestepny");
+        System.out.println("Rok przestepny to:" + year);
         }
         else {
         System.out.println("Rok nie przestepny to:" + year);
