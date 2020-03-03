@@ -16,7 +16,7 @@ public class Test6 {
     }
 
     public static void main(String args[]) {
-        int n = 43;
+        int n = -4;
         boolean c = caller(n);
         if (c == true) {
             System.out.println("Weird");
