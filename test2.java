@@ -1,8 +1,8 @@
-class Test2 {
+public class Test2 {
 	
     public static int findMax(int[] array) {
-        int = Integer.MIN_VALUE;
-        for (int i = 1; i < array.length; i++) {
+        int max = Integer.MIN_VALUE;
+        for (int i = 0; i < array.length; i++) {
             if (array[i] > max) {
                 max = array[i];
             }
@@ -11,8 +11,8 @@ class Test2 {
     }
 
     public static int findMin(int[] array) {
-        int min = Integer.MIN_VALUE;
-        for (int i = 1; i < array.length; i++) {
+        int min = Integer.MAX_VALUE;
+        for (int i = 0; i < array.length; i++) {
             if (array[i] < min) {
                 min = array[i];
             }
@@ -30,7 +30,7 @@ class Test2 {
     }
 
     public static void main(String args[]) {
-	int[] tab = {4, 6, 87, 99, 23};
+	int[] tab = {-4, 6, 87, 99, 23};
 	    
         int max = findMax(tab);
         int min = findMin(tab);
