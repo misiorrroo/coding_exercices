@@ -3,10 +3,8 @@ class Test5 {
     static int year;
 
     public static boolean isLeap(int year) {
-        year = 0;
-        for (year = 0; year < 2020; year++){
-        if (((year % 4 == 0) && (year % 100!= 0)) || (year%400 == 0));
-                }
+        if (((year % 4 == 0) && (year % 100!= 0)) || (year%400 == 0)){
+                
             
         return true;
     }
