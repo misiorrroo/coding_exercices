@@ -1,20 +1,16 @@
 class Test6 { 
     public static boolean caller(int n) { 
-    if (n == 2) {
-      return false;
+    if ((n == 2) && (n==4)){
+      return true;
     } 
-    else{
-    if (n == 4)
-    return false;
-    }
-    if((n >= 6) && (n < 20) && (n % 2 == 0)){
+    if((n >= 6) && (n <= 20) && (n % 2 == 0)){
     return true;
     }
-    else if ((n > 20) && (n % 2 == 0)){
+    if ((n > 20) && (n % 2 == 0)){
     return true;
     } 
     else 
-    return true;
+    return false;
     }
 
     public static void main(String args[]) {
