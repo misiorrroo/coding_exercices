@@ -1,5 +1,5 @@
 public class Test2 {
-	
+
     public static int findMax(int[] array) {
         int max = Integer.MIN_VALUE;
         for (int i = 0; i < array.length; i++) {
@@ -30,12 +30,12 @@ public class Test2 {
     }
 
     public static void main(String args[]) {
-	int[] tab = {-4, 6, 87, 99, 23};
-	    
+        int[] tab = { -4, 6, 87, 99, 23 };
+
         int max = findMax(tab);
         int min = findMin(tab);
         double avr = findAvr(tab);
-	    
+
         System.out.println("max value " + max);
         System.out.println("min value " + min);
         System.out.println("average value " + avr);
