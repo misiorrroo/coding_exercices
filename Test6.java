@@ -5,11 +5,12 @@ public class Test6 {
     else if ((n >= 6) && (n <= 20) && (n % 2 == 0)){return false;}
     else if ((n >= 6) && (n <= 20) && (n % 2 == 0)){return true;}
     else if ((n > 20) && (n % 2 == 0)){return true;}
+    else if(n <= 0){return false;}
     else {return false;}
     }
 
     public static void main(String args[]) {
-        int n = 7;
+        int n = -2;
         boolean c = caller(n);
         if(c == true){
         System.out.println("Weird");
