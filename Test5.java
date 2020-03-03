@@ -1,14 +1,8 @@
-class Test5 {
-    boolean isLeap;
-    static int year;
-
+public class Test5 {
     public static boolean isLeap(int year) {
-        if (((year % 4 == 0) && (year % 100!= 0)) || (year%400 == 0)){
-                
-            
-        return true;
+    if (((year % 4 == 0) && (year % 100!= 0)) || (year % 400 == 0)){return true;}
+    else{return false;}
     }
-
     public static void main(String args[]) {
         int year = 2018;
         boolean c = isLeap(year);
@@ -16,9 +10,7 @@ class Test5 {
         System.out.println("Rok przestepny");
         }
         else {
-        System.out.println("Rok nie przestepny to:");
+        System.out.println("Rok nie przestepny to:" + year);
         }
     }
 }
-    
-    //http://www.eng.fsu.edu/~haik/met.dir/hcpp.dir/notes.dir/cppnotes/node41.html
