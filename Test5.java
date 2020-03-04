@@ -1,4 +1,5 @@
 public class Test5 {
+
     public static boolean isLeap(int year) {
         if (((year % 4 == 0) && (year % 100 != 0)) || (year % 400 == 0)) {
             return true;
@@ -8,7 +9,7 @@ public class Test5 {
     }
 
     public static void main(String args[]) {
-        int year = 2020;
+        int year = 2018;
         boolean c = isLeap(year);
         if (c == true) {
             System.out.println("Rok przestepny to:" + year);

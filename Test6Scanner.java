@@ -1,5 +1,7 @@
+
 import java.util.Scanner;
 public class Test6Scanner {
+    
     public static boolean caller(int n) {
         if (n == 1) {
             return true;

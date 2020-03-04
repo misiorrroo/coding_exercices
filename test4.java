@@ -1,33 +1,37 @@
 public class Test4 {
 
-    public static int findMin(int[] array) {
+    public static int findMaxSum(int[] array) {
+        int sum = 0;
+        int i;
         int min = array[0];
-        for (int i = 1; i < array.length; i++) {
+        for (i = 0; i < array.length; i++) {
+            sum += array[i];
+            return sum;
+        }
+        {
+        for (int i = 0; i < array.length; i++) {  //I własnie tutaj się pojawia problem, wiem ze sie duplikuje robiłem pod funkcja "int y" i zmienialem na y w ciele petli pisze to samo plus "dead code"...
+        if (array[i] < min) {                    //JAk robie funkcje w funkcji tez nie działa :<
+            /*
+        public static int findMin(int[] array) { 
+        for (int i = 0; i < array.length; i++) {
             if (array[i] < min) {
                 min = array[i];
             }
         }
         return min;
     }
-
-    public static int Sum(int[] array) {
-        int sum = 0;
-        int i;
-        for (i = 0; i < array.length; i++)
-            sum += array[i];
-        return sum;
-    }
-
-    public static int findMaxSum(int sum, int min) {
+            */
+        min = array[i];
+        }
+        }
+        return min;
+        }
         int summin = sum - min;
-        return summin;
     }
 
     public static void main(String args[]) {
         int[] tab = { -5, -4, -3, -2, -1 };
-        int min = findMin(tab);
-        int sum = Sum(tab);
-        int summin = findMaxSum(sum, min);
+        int summin = findMaxSum(tab);
         System.out.println("Max sum from 4 elements " + summin);
     }
 }

@@ -1,10 +1,13 @@
 //W test3.java zrób funkcję public static int findSecondMax(int[] array)
 class Test3 {
+
     public static int findSecondMax(int[] array) {
-        int max = Integer.MIN_VALUE;
-        int secondmax = array[0];
-        if (array[0] > array[1]) {
+        
+        int max = array[0];
+        int secondmax = array[1];
+        if (array[1] > array[0]) {
             max = array[1];
+            secondmax = array[0];
         }
         for (int i = 0; i < array.length; i++) {
             if (array[i] > max) {
@@ -19,7 +22,7 @@ class Test3 {
     }
 
     public static void main(String args[]) {
-        int[] tab = { 5, 4, 3, 2, 1 };
+        int[] tab = { -5, -4, -3, -2, -1 };
         int secondmax = findSecondMax(tab);
         System.out.println("second max value " + secondmax);
     }

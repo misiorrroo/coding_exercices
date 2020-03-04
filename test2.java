@@ -1,7 +1,7 @@
 public class Test2 {
 
     public static int findMax(int[] array) {
-        int max = Integer.MIN_VALUE;
+        int max = array[0]; //Tutaj też można int max = int min.value ---->najlepsze rozwiązanie to int max = -999999
         for (int i = 0; i < array.length; i++) {
             if (array[i] > max) {
                 max = array[i];
@@ -11,7 +11,7 @@ public class Test2 {
     }
 
     public static int findMin(int[] array) {
-        int min = Integer.MAX_VALUE;
+        int min = array[0];  //Tutaj też można int min = min.value ---->najlepsze rozwiązanie to int max = -999999
         for (int i = 0; i < array.length; i++) {
             if (array[i] < min) {
                 min = array[i];
