@@ -1,7 +1,7 @@
 public class Test2 {
 
     public static int findMax(int[] array) {
-        int max = array[0]; 
+        int max = array[1]; 
         for (int i = 0; i < array.length; i++) {
             if (array[i] > max) {
                 max = array[i];
@@ -9,15 +9,33 @@ public class Test2 {
         }
         return max;
     }
+    public static int findMax2(int[] array) {
+        int max2 = Integer.MIN_VALUE; 
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] > max2) {
+                max2 = array[i];
+            }
+        }
+        return max2;
+    }
 
     public static int findMin(int[] array) {
-        int min = array[0];  
+        int min = array[1];  
         for (int i = 0; i < array.length; i++) {
             if (array[i] < min) {
                 min = array[i];
             }
         }
         return min;
+    }
+    public static int findMin2(int[] array) {
+        int min2 = Integer.MIN_VALUE;  
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] < min2) {
+                min2 = array[i];
+            }
+        }
+        return min2;
     }
 
     public static double findAvr(int[] array) {
@@ -34,10 +52,14 @@ public class Test2 {
 
         int max = findMax(tab);
         int min = findMin(tab);
+        int max2 = findMax(tab);
+        int min2 = findMin(tab);
         double avr = findAvr(tab);
 
         System.out.println("max value " + max);
         System.out.println("min value " + min);
+        System.out.println("max value2 " + max2);
+        System.out.println("min value2 " + min2);
         System.out.println("average value " + avr);
     }
 }
