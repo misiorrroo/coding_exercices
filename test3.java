@@ -1,4 +1,3 @@
-//W test3.java zrób funkcję public static int findSecondMax(int[] array)
 class Test3 {
 
     public static int findSecondMax(int[] array) {
@@ -17,8 +16,8 @@ class Test3 {
 
                 secondmax = array[i];
         }
-        return secondmax; // cos jest tu zjebane wiem ze mialem nie wrzucac nie kompilujacego sie kodu ale
-                          // nie wiem co tu jest nie OK.
+        return secondmax; 
+                          
     }
 
     public static void main(String args[]) {
