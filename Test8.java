@@ -1,11 +1,20 @@
 public class Test8 {
     static int countingValleys(int n, int[] array) {
-        int level = 0; 
-        int valleys = 0;
-        for(n=0; n < array.length; n++){
-            if()
+        {
+            int altitude = 0;
+            int valleys = 0;
+            int[] array = 0;
+            for(i = 0; i < array.length; i++)
+            {
+                if (int[] array == -1) altitude--;
+                if (int[] array == 1) altitude++;
+                {
+                    altitude++;
+                    if (altitude == 0) valleys++;
+                }
+            }
+            return valleys;
         }
-
     }
 
     public static void main(String args[]) {

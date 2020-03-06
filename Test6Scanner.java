@@ -2,7 +2,7 @@
 import java.util.Scanner;
 public class Test6Scanner {
     
-    public static boolean caller(int n) {
+    public static boolean checkIfWeird(int n) {
         if (n == 1) {
             return true;
         } else if ((n > 2 && n < 5) && (n % 2 == 0)) {
@@ -25,11 +25,12 @@ public class Test6Scanner {
         System.out.println("Jak będzie to liczba z przedziału 6-20 i bedzie parzysta wydrukuje WEIRD jak nie parzysta wydrukuje NOT WEIRD");
         System.out.println("Jak będzie to liczba większa od 20 i bedzie parzysta wydrukuje NOT WEIRD jak parzysta wydrukuje WEIRD");
         System.out.println("Jak będzie to liczba ujemna wydrukuje NOT WEIRD");
+
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
         scanner.close();
-        boolean c = caller(n);
-        if (c == true) {
+        boolean isweird = checkIfWeird(n);
+        if (isweird) {
             System.out.println("Weird");
         } else {
             System.out.println("Not Weird");

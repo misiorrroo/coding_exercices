@@ -10,11 +10,11 @@ public class Test5 {
 
     public static void main(String args[]) {
         int year = 2018;
-        boolean c = isLeap(year);
-        if (c == true) {
+        boolean isleap = isLeap(year);
+        if (isleap) {           //isleap==true jak jest samo to isleap
             System.out.println("Rok przestepny to:" + year);
         } else {
-            System.out.println("Rok nie przestepny to:" + year);
+            System.out.println("Rok nieprzestepny to:" + year);
         }
     }
 }
