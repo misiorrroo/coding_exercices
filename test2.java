@@ -11,7 +11,7 @@ public class Test2 {
     }
 
     public static int findMax2(int[] array) {
-        int max2 = Integer.MIN_VALUE; 
+        int max2 = array[1]; 
         for (int i = 1; i < array.length; i++) {
             if (array[i] > max2) {
                 max2 = array[i];

@@ -1,23 +1,21 @@
 public class Test8 {
-    static int countingValleys(int n, int[] array) {
-        {
-            int altitude = 0;
-            int valleys = 0;
-            int[] array = 0;
-            for(i = 0; i < array.length; i++)
-            {
-                if (int[] array == -1) altitude--;
-                if (int[] array == 1) altitude++;
-                {
-                    altitude++;
-                    if (altitude == 0) valleys++;
-                }
+
+    static int countingValleys(int[] array, level) {
+            int valley = array[0];
+            int level = 0;
+            for(i = 0; i < array.length; i++){
+                if (array[i] == -1) 
+                {level--;}
+                if (array[i] == 1)
+                {level++;}
             }
-            return valleys;
+            return valley;
         }
-    }
+    
 
     public static void main(String args[]) {
-        int[] tab = { 1, 2, 3, 4, 8 };
+        int[] tab = { -1, 1, -1, -1, 1, 1 , 1 };
         int count = countingValleys(tab);
-        System.out.println("Max sum from 4 elements " + summin);
+        System.out.println("valleys is " + valley);
+    }
+}
