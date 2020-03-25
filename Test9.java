@@ -20,8 +20,10 @@ public class Test9 {
 
     public static void main(String args[]){
         int n = 7;
-        String day = firstDayOfWeek1(n, firstDayOfWeek); 
+        String day = firstDayOfWeek1(n, firstDayOfWeek); // nie wiem dlaczego swieci sie na czerwono, chyba tak powinno być że jest return i oddaje stringa od n
         System.out.println(day);
     }
 }
 }
+
+//Na to jeszcze nie patrz!

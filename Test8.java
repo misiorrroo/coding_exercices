@@ -16,6 +16,7 @@ public class Test8 {
     public static void main(String args[]) {
         int[] tab = { -1, 1, -1, -1, 1, 1 , 1 };
         int count = countingValleys(tab);
-        System.out.println("valleys is " + valley);
+        System.out.println("valleys is " + tab);
     }
 }
+//Za chuja nie wiem co tu jest źle
