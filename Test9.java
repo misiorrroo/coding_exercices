@@ -20,7 +20,6 @@ public class Test9 {
         }
         
     }
-
     public static String firstDayOfWeek2(int n, String firstDayOfWeek){
 
         switch (n) {
@@ -40,6 +39,7 @@ public class Test9 {
             return "Sunday";
         }
     }
+
 
     
 

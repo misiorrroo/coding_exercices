@@ -3,8 +3,8 @@ class Test3 {
     public static int findSecondMax(int[] array) {
         int max = Integer.MIN_VALUE;
         int secondmax = Integer.MIN_VALUE;
-        for (int i = 0; i < array.length; i++) {
 
+        for (int i = 0; i < array.length; i++) {
             if (array[i] > max) {
                 secondmax = max;
                 max = array[i];
@@ -20,8 +20,8 @@ class Test3 {
         int max = Integer.MIN_VALUE;
         int secondmax = Integer.MIN_VALUE;
         int thirdmax = Integer.MIN_VALUE;
+        
         for (int i = 0; i < array.length; i++) {
-
             if (array[i] > max) {
                 thirdmax = secondmax;
                 secondmax = max;
@@ -29,7 +29,7 @@ class Test3 {
             } else if (array[i] > secondmax) {
                 thirdmax = secondmax;
                 secondmax = array[i];
-            }else if (array[i] > thirdmax) { 
+            } else if (array[i] > thirdmax) {
                 thirdmax = array[i];
             }
         }
@@ -37,7 +37,7 @@ class Test3 {
     }
 
     public static void main(String args[]) {
-        int[] tab = {2, 11, -10, -3, -4};
+        int[] tab = { 2, 11, -10, -3, -4 };
         int secondmax = findSecondMax(tab);
         int thirdmax = findThirdMax(tab);
         System.out.println("second max value " + secondmax);
