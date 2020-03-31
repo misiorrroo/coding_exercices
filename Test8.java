@@ -9,9 +9,7 @@ public class Test8 {
             if (array[i] == -1) 
                 {level--;}
             if (array[i] == 1)          
-                {level++;}
-            }
-            {
+                {level++;}       
             if (level == 0 && array[i] == 1) 
                 valleycount++;
             }
