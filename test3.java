@@ -5,6 +5,7 @@ class Test3 {
         int secondmax = Integer.MIN_VALUE;
 
         for (int i = 0; i < array.length; i++) {
+
             if (array[i] > max) {
                 secondmax = max;
                 max = array[i];
@@ -20,8 +21,9 @@ class Test3 {
         int max = Integer.MIN_VALUE;
         int secondmax = Integer.MIN_VALUE;
         int thirdmax = Integer.MIN_VALUE;
-        
+
         for (int i = 0; i < array.length; i++) {
+
             if (array[i] > max) {
                 thirdmax = secondmax;
                 secondmax = max;

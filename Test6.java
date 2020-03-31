@@ -1,7 +1,7 @@
 public class Test6 {
-    
+
     public static boolean checkIfWeird(int n) {
-        if (n == 1) {
+        if (n == 1 || n == -1) {
             return true;
         } else if ((n > 2 && n < 5) || (n < -2 && n > -5) && (n % 2 == 0)) {
             return false;
@@ -17,7 +17,7 @@ public class Test6 {
     }
 
     public static void main(String args[]) {
-        int n = -4;
+        int n = -22;
         boolean isweird = checkIfWeird(n);
         if (isweird) {
             System.out.println("Weird");
