@@ -1,5 +1,4 @@
 public class Test4 {
-
     public static int sum(int[] array) {
         int sum = 0;
         int i;
@@ -8,7 +7,7 @@ public class Test4 {
             sum += array[i];
         return sum;
     }
-
+    
     public static int findMin(int[] array) {
         int min = array[0];
         for (int i = 1; i < array.length; i++) {

@@ -14,7 +14,6 @@ class Test3 {
             }
         }
         return secondmax;
-
     }
 
     public static int findThirdMax(int[] array) {
