@@ -13,7 +13,7 @@ public class Test7 {
         int[] tab = { 1, 2, 3, 4, 8 };
         int[] reverse = reverse(tab);
         for (int i = 0; i <= reverse.length; i++) {
-            System.out.print(reverse[i]);
+            System.out.println(reverse[i]);
         }
     }
 }
