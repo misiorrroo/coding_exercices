@@ -1,14 +1,13 @@
 public class Test14{
-    public static String containsInString(int n, String firstDayOfWeek) {
-    
-    
-        public static void main(String args[]) {
-            int n = 6;
-            String firstDayOfWeek = "Sunday";
-            String day = firstDayOfWeek1(n, firstDayOfWeek); // nie wiem dlaczego swieci sie na czerwono, chyba tak powinno
-                                                             // być że jest return i oddaje stringa od n
-            System.out.println(day);
-            String day2 = firstDayOfWeek2(n, firstDayOfWeek);
-            System.out.println(day2);
+    public static int intChecker(int[] array, int[] array2) {
+    for (int i = 0; i < array.length; i++){
+
+    }
+}
+    public static void main(String args[]) {
+        int[] tab = { 1, 2, 3 };
+        int[] tab2 = { 1, 2, 3 };
+        float sumtotal = sum2Arrays(tab, tab2);
+        System.out.println(sumtotal);
         }
     }

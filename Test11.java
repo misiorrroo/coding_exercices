@@ -1,21 +1,21 @@
 class Test11 {
 
-    public static float sum2Arrays(float[] tab, float[] tab2) {
+    public static float sum2Arrays(float[] array, float[] array2) {
         float sum1 = 0;
         float sum2 = 0;
         float sumtotal = 0;
         {
-            for (int i = 0; i < tab.length; i++){
+            for (int i = 0; i < array.length; i++){
 
-                sum1 = sum1 + tab[i];
+                sum1 += array[i];
             }
             return sum1;
         
 
         
-            for (int i = 0; i < tab2.length; i++){
+            for (int i = 0; i < array.length; i++){
 
-                sum2 = sum2 + tab2[i];
+                sum2 += array[i];
             }
             return sum2;
         

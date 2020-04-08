@@ -12,7 +12,7 @@ class Test10 {
 
     public static void main(String args[]) {
         int[] tab = { -4, 6, 87, 99, 23 };
-        int value = 5;
+        int value = 87;
         boolean contain = containValueInArray(tab, value);
         if (contain) {
             System.out.println("Warość zawiera się w tablicy, wartośc to: " + value);
