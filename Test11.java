@@ -4,26 +4,16 @@ class Test11 {
         float sum1 = 0;
         float sum2 = 0;
         float sumtotal = 0;
-        {
+        
             for (int i = 0; i < array.length; i++){
-
                 sum1 += array[i];
             }
-            return sum1;
-        
-
-        
-            for (int i = 0; i < array.length; i++){
-
-                sum2 += array[i];
+            
+            for (int j = 0; j < array.length; j++){
+                sum2 += array[j];
             }
-            return sum2;
-        
-        {
             sumtotal = sum1 + sum2;
-        }
-        
-    }
+            return sumtotal; // return konczy metode
 }
 
     
