@@ -1,28 +1,31 @@
 class Test11concatenate {
 
     public static float[] concatenate(float[] array, float[] array2){
-        float length = array.length + array2.length;
-        float[] result = new float[length];
-        float i = 0;
-        for (float i = 0; i < array.length; i++){
-            result[i] = new float[i];
-            i++;
-        }
 
-        for (float i = 0; i < array2.length; i++){
-            result[i] = new float[i];
+        int length = array.length + array2.length;
+        float[] result = new float[length];
+      
+        for (int i = 0; i < array.length; i++){
+            result[i] = array[i];
             i++;
         }
+        for (int j = 0; j < array2.length; j++){
+            result[j] = array[j];
+            j++;
+        }
+      
+      
         return result;
     }
 
-    
+  
 
     public static void main(String args[]) {
         float[] tab = { 1, 2, 3};
         float[] tab2 = { 9, 8, 7};
-        float sumtotal = concatenate(tab, tab2);
-        System.out.println(sumtotal);
+        float[] result = concatenate(tab, tab2);
+        for (int i = 0; i < result.length; i++){
+         System.out.println( result[i] + ",");
+      }
     }
-
 }
