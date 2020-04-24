@@ -16,8 +16,8 @@ class Test1 { // definicja klasy, PascalCase, klasy to rzeczowniki a, metdoy to 
     }
 
     public static void main(String args[]) {
-        int a = 10;
-        int b = 20;
+        int a = 22;
+        int b = 7;
         int c = sum(a, b); // to jest to samo co int c = Test1.sum(a, b), ale w obrebie tej samej klasy nie musisz pisac nazwy klasy, jak wywolujesz metode statyczna
         System.out.println(c);
 
