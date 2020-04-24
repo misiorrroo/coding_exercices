@@ -2,7 +2,6 @@
 public class Test16 {
 
     public static int multiplicationWithoutOperator(int a, int b) {
-        int mul = 0;
         if (a == 0) {
             return 0;
         }
@@ -15,10 +14,11 @@ public class Test16 {
         if (b == 1) {
             return a;
         }else{
-        for(int i =1 ;1<=b; i++){
-            mul = mul + a;
-            int result = mul;
+            int result = 0;
+        for(int i =0 ;i<b; i++){
+            result = result + a;
         }
+        return result;
         }
     }
 
