@@ -3,13 +3,13 @@ public class Test9 {
     public static String firstDayOfWeek1(int n, String firstDayOfWeek) {
 
         n = (n%7)+1;
-        if (firstDayOfWeek == "Tuesday") {
+        if (firstDayOfWeek == "Monday") {
             n = n + 1;
         }
-        if (firstDayOfWeek == "Wednesday") {
+        if (firstDayOfWeek == "Tuesday") {
             n = n + 2;
         }
-        if (firstDayOfWeek == "Thursday") {
+        if (firstDayOfWeek == "Wednesday") {
             n = n + 3;
         }
         if (firstDayOfWeek == "Friday") {
@@ -21,7 +21,7 @@ public class Test9 {
         if (firstDayOfWeek == "Sunday") {
             n = n + 6;
         }
-
+        n = ((n + 1) % 7);
         if (n == 1) {
             return "Monday";
         } else if (n == 2) {
@@ -34,10 +34,9 @@ public class Test9 {
             return "Friday";
         } else if (n == 6) {
             return "Saturday";
-        } else if (n == 7) {
+        } else {
             return "Sunday";
-        } else
-            return "Sunday";
+        }
     }
 
     public static String firstDayOfWeek2(int n, String firstDayOfWeek) {
@@ -79,7 +78,7 @@ public class Test9 {
     }
 
     public static void main(String args[]) {
-        int n = 6;
+        int n = 7;
         String firstDayOfWeek = "Sunday";
         String day = firstDayOfWeek1(n, firstDayOfWeek); // nie wiem dlaczego swieci sie na czerwono, chyba tak powinno
                                                          // być że jest return i oddaje stringa od n

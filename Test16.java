@@ -18,3 +18,4 @@ public class Test16 {
         System.out.println("Wynik to:" + multiplication);
     }
 }
+//Zrobić dla liczb ujemnych
