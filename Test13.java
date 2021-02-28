@@ -11,7 +11,8 @@ public class Test13 {
     }
 
     public static void main(String args[]) {
-        String[] first = { "Aniela", "mnie", "wkurwia" };
+        String[] first = { "Aniela", "mnie", "wkurwia" }
+        ;
         String[] second = { "Aniela", "jest", "super" };
         if (haveCommonElement(first, second)) {
             System.out.println("Conajmniej jeden element jest wspólny");

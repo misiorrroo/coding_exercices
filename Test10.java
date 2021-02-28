@@ -14,9 +14,9 @@ class Test10 {
         int value = 87;
         boolean contain = containValueInArray(tab, value);
         if (contain) {
-            System.out.println("Warość zawiera się w tablicy, wartośc to: " + value);
+            System.out.println("Wartość zawiera się w tablicy, wartośc to: " + value);
         } else {
-            System.out.println("Warość nie zawiera się w tablicy, wartośc to: " + value);
+            System.out.println("Wartość nie zawiera się w tablicy, wartośc to: " + value);
         }
     }
 }

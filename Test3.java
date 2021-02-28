@@ -38,7 +38,7 @@ class Test3 {
     }
 
     public static void main(String args[]) {
-        int[] tab = { 2, 11, -10, -3, -4 };
+        int[] tab = { -6, 45811, -10, -3, -4 };
         int secondmax = findSecondMax(tab);
         int thirdmax = findThirdMax(tab);
         System.out.println("second max value " + secondmax);
