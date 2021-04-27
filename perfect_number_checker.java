@@ -1,3 +1,5 @@
+import java.lang.reflect.Array;
+
 public class perfect_number_checker {
     public static void perfect(int n){
         for (int i = 1; i <= n; i++){
@@ -5,8 +7,8 @@ public class perfect_number_checker {
                 System.out.println(i);
         }
     }
-    public static void sum_of_dividers(int n){
-    int sum = 0;
+    public static void sumOfDividers(int n){
+        int sum = 0;
     for(int i = 1; i<n; n++){
         sum = sum + perfect(num);
     }

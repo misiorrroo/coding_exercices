@@ -1,0 +1,336 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch need_for_code_asap",
+            "request": "launch",
+            "mainClass": "need_for_code_asap",
+            "projectName": "coding_exercices_28b05322"
+        },
+        {
+            "type": "java",
+            "name": "Launch perfect_number_checker",
+            "request": "launch",
+            "mainClass": "perfect_number_checker",
+            "projectName": "coding_exercices_28b05322"
+        },
+        {
+            "type": "java",
+            "name": "Launch Divisors",
+            "request": "launch",
+            "mainClass": "Divisors",
+            "projectName": "coding_exercices_28b05322"
+        },
+        {
+            "type": "java",
+            "name": "Launch perfectnumb",
+            "request": "launch",
+            "mainClass": "perfectnumb",
+            "projectName": "coding_exercices_28b05322"
+        },
+        {
+            "type": "java",
+            "name": "Launch perfect_numbers",
+            "request": "launch",
+            "mainClass": "perfect_numbers",
+            "projectName": "coding_exercices_28b05322"
+        },
+        {
+            "type": "java",
+            "name": "Launch algo",
+            "request": "launch",
+            "mainClass": "algo",
+            "projectName": "coding_exercices_28b05322"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Conifer",
+            "request": "launch",
+            "mainClass": "Conifer",
+            "projectName": "coding_exercices_28b05322"
+        },
+        {
+            "type": "java",
+            "name": "Launch Hashmapka",
+            "request": "launch",
+            "mainClass": "Hashmapka",
+            "projectName": "coding_exercices_28b05322"
+        },
+        {
+            "type": "java",
+            "name": "Launch HowmanyGrzesio",
+            "request": "launch",
+            "mainClass": "HowmanyGrzesio",
+            "projectName": "coding_exercices_28b05322"
+        },
+        {
+            "type": "java",
+            "name": "Launch Inttostring",
+            "request": "launch",
+            "mainClass": "Inttostring",
+            "projectName": "coding_exercices_28b05322"
+        },
+        {
+            "type": "java",
+            "name": "Launch PortScanner",
+            "request": "launch",
+            "mainClass": "PortScanner",
+            "projectName": "coding_exercices_28b05322"
+        },
+        {
+            "type": "java",
+            "name": "Launch Quick_Sort",
+            "request": "launch",
+            "mainClass": "Quick_Sort",
+            "projectName": "coding_exercices_28b05322"
+        },
+        {
+            "type": "java",
+            "name": "Launch TODOlist",
+            "request": "launch",
+            "mainClass": "TODOlist",
+            "projectName": "coding_exercices_28b05322"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test1",
+            "request": "launch",
+            "mainClass": "Test1",
+            "projectName": "coding_exercices_28b05322"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test10",
+            "request": "launch",
+            "mainClass": "Test10",
+            "projectName": "coding_exercices_28b05322"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test11",
+            "request": "launch",
+            "mainClass": "Test11",
+            "projectName": "coding_exercices_28b05322"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test11concatenate",
+            "request": "launch",
+            "mainClass": "Test11concatenate",
+            "projectName": "coding_exercices_28b05322"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test12",
+            "request": "launch",
+            "mainClass": "Test12",
+            "projectName": "coding_exercices_28b05322"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test13",
+            "request": "launch",
+            "mainClass": "Test13",
+            "projectName": "coding_exercices_28b05322"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test14",
+            "request": "launch",
+            "mainClass": "Test14",
+            "projectName": "coding_exercices_28b05322"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test15",
+            "request": "launch",
+            "mainClass": "Test15",
+            "projectName": "coding_exercices_28b05322"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test16",
+            "request": "launch",
+            "mainClass": "Test16",
+            "projectName": "coding_exercices_28b05322"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test17",
+            "request": "launch",
+            "mainClass": "Test17",
+            "projectName": "coding_exercices_28b05322"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test18",
+            "request": "launch",
+            "mainClass": "Test18",
+            "projectName": "coding_exercices_28b05322"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test19",
+            "request": "launch",
+            "mainClass": "Test19",
+            "projectName": "coding_exercices_28b05322"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test2",
+            "request": "launch",
+            "mainClass": "Test2",
+            "projectName": "coding_exercices_28b05322"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test20",
+            "request": "launch",
+            "mainClass": "Test20",
+            "projectName": "coding_exercices_28b05322"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test3",
+            "request": "launch",
+            "mainClass": "Test3",
+            "projectName": "coding_exercices_28b05322"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test4",
+            "request": "launch",
+            "mainClass": "Test4",
+            "projectName": "coding_exercices_28b05322"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test5",
+            "request": "launch",
+            "mainClass": "Test5",
+            "projectName": "coding_exercices_28b05322"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test6",
+            "request": "launch",
+            "mainClass": "Test6",
+            "projectName": "coding_exercices_28b05322"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test6Scanner",
+            "request": "launch",
+            "mainClass": "Test6Scanner",
+            "projectName": "coding_exercices_28b05322"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test7",
+            "request": "launch",
+            "mainClass": "Test7",
+            "projectName": "coding_exercices_28b05322"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test8",
+            "request": "launch",
+            "mainClass": "Test8",
+            "projectName": "coding_exercices_28b05322"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test9",
+            "request": "launch",
+            "mainClass": "Test9",
+            "projectName": "coding_exercices_28b05322"
+        },
+        {
+            "type": "java",
+            "name": "Launch cos",
+            "request": "launch",
+            "mainClass": "cos",
+            "projectName": "coding_exercices_28b05322"
+        },
+        {
+            "type": "java",
+            "name": "Launch cosmolly",
+            "request": "launch",
+            "mainClass": "cosmolly",
+            "projectName": "coding_exercices_28b05322"
+        },
+        {
+            "type": "java",
+            "name": "Launch exp",
+            "request": "launch",
+            "mainClass": "exp",
+            "projectName": "coding_exercices_28b05322"
+        },
+        {
+            "type": "java",
+            "name": "Launch features_of_numbers",
+            "request": "launch",
+            "mainClass": "features_of_numbers",
+            "projectName": "coding_exercices_28b05322"
+        },
+        {
+            "type": "java",
+            "name": "Launch findIP",
+            "request": "launch",
+            "mainClass": "findIP",
+            "projectName": "coding_exercices_28b05322"
+        },
+        {
+            "type": "java",
+            "name": "Launch molly21",
+            "request": "launch",
+            "mainClass": "molly21",
+            "projectName": "coding_exercices_28b05322"
+        },
+        {
+            "type": "java",
+            "name": "Launch mollycalc",
+            "request": "launch",
+            "mainClass": "mollycalc",
+            "projectName": "coding_exercices_28b05322"
+        },
+        {
+            "type": "java",
+            "name": "Launch petlepetelki",
+            "request": "launch",
+            "mainClass": "petlepetelki",
+            "projectName": "coding_exercices_28b05322"
+        },
+        {
+            "type": "java",
+            "name": "Launch przybornik_programisty",
+            "request": "launch",
+            "mainClass": "przybornik_programisty",
+            "projectName": "coding_exercices_28b05322"
+        },
+        {
+            "type": "java",
+            "name": "Launch szlugbuZZ",
+            "request": "launch",
+            "mainClass": "szlugbuZZ",
+            "projectName": "coding_exercices_28b05322"
+        },
+        {
+            "type": "java",
+            "name": "Launch thermometer",
+            "request": "launch",
+            "mainClass": "thermometer",
+            "projectName": "coding_exercices_28b05322"
+        }
+    ]
+}

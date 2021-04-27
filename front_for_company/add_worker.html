@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<title>COMPANY mainpage</title>
+<meta charset="iso-8859-2">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color:  #052700;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; 
+  background: rgb(204, 192, 140);
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: rgb(118, 221, 247);
+  height: 300px; 
+}
+
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  background-color: #ffd0ff;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2>PROJEKT COMPANY by MISIOREK</h2>
+
+<header>
+  <h2>DODAJ</h2>
+  <h2>PRACOWNIKA</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+    <li><a href="C:\Users\misio\Documents\Source\coding_exercices\front_for_company\worker.html">Wyszukiwanie pracownika</a></li>
+    <li><a href="C:\Users\misio\Documents\Source\coding_exercices\front_for_company\add_worker.html">Dodaj pracownika</a></li>
+    <li><a href="C:\Users\misio\Documents\Source\coding_exercices\front_for_company\administration.html">Opcje administracyjne</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h2>Wyszukaj pracownika po:</h2>
+    <h2><input type="text" name="nazwa" value="Imieniu"></h2>
+    <p><h2><input type="text" name="nazwa" value="Nazwisku"></h2></p>
+    <p><h2><input type="text" name="nazwa" value="Stanowisku"></h2></p>
+    <p><h2><input type="text" name="nazwa" value="Zarobkach"></h2></p>
+  </article>
+</section>
+
+<footer>
+  <p><a href="file:///C:/Users/misio/Documents/Source/coding_exercices/front_for_company/main.html">RESET</a></p>
+</footer>
+
+</body>
+</html>

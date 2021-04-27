@@ -1,27 +1,12 @@
-import mysql.connector
-from time import sleep
-
-mydb = mysql.connector.connect(
-    host="localhost",
-    user="root",
-    password="Fizyka8%",
-    database="sql-kurs"
-)
-mycursor = mydb.cursor()
-mycursor.execute("SELECT * FROM freestylepassword;")
-myresult = mycursor.fetchall()
-
-for x in myresult:
-    print(x)
-
-sleep(1)
-print("To nie koniec ziomek!")
-sleep(4)
-
-print("Średnie jakieś z pizdy, z tych kurwa numerków:")
-mycursor = mydb.cursor()
-mycursor.execute("AVG(numer) FROM freestylepassword WHERE 16516461;")
-myresult = mycursor.fetchall()
-
-for x in myresult:
-    print(x)
+age = input("How old are you? ")
+age = int(age)
+if age == 1:
+    print("1K1H1H11")
+if age == 2:
+    print("22SA2FG2AS2F")
+if age == 3:
+    print("36+36636S2F")
+if age == 4:
+    print("36+36555555F")    
+else:
+    print("oDPAL JESZCZE RAZ I WYBIERZ OPCJĘ")

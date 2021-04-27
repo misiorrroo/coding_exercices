@@ -61,7 +61,7 @@ public class thermometer {
     }
 
     private void ifExample() {
-        int temperature = 38;
+        int temperature = 32;
         if (temperature < 36) {
             System.out.println("Jesteś osłabiony?");
         }
