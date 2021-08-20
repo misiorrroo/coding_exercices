@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Loancalc",
+            "request": "launch",
+            "mainClass": "sololearnjava.Loancalc",
+            "projectName": "coding_exercices_28b05322"
+        },
+        {
+            "type": "java",
+            "name": "Launch Program",
+            "request": "launch",
+            "mainClass": "sololearnjava.Program",
+            "projectName": "coding_exercices_28b05322"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fizzbuzz",
+            "request": "launch",
+            "mainClass": "Fizzbuzz",
+            "projectName": "coding_exercices_28b05322"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "coding_exercices_28b05322"
+        },
+        {
+            "type": "java",
+            "name": "Launch Triagle",
+            "request": "launch",
+            "mainClass": "Triagle",
+            "projectName": "coding_exercices_28b05322"
+        },
+        {
+            "type": "java",
             "name": "Launch need_for_code_asap",
             "request": "launch",
             "mainClass": "need_for_code_asap",
