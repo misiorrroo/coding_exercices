@@ -1,0 +1,25 @@
+GET http://localhost:5000/users
+
+###
+
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "username": "Kagdsmil",
+    "city": "gsdgh"
+}
+
+###
+
+PUT http://localhost:5000/39
+Content-Type: application/json
+
+{
+    "username": "Kamilupdate",
+    "city": "Lodz"
+}
+
+###
+
+DELETE http://localhost:5000/39
