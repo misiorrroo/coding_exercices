@@ -12,14 +12,14 @@ print('It is a console application, written in python, which uses open source ap
 time.sleep(1.25)
 print('1.You can find a word that rhymes with the word you enter:')
 time.sleep(0.7)
-print('2.')
+print('2.Enter a word to be similar to yours')
 time.sleep(0.7)
-print('3.')
+print('3.Find words that sound similar to yours')
 time.sleep(0.7)
-print('4.')
+print('4.Enter a word to be strongly associated with your word')
 time.sleep(1)
 
-menu = input('Choose your number and press ENTER')
+menu = input('Choose your number and press ENTER:  ')
 
 if menu == "1":
     rhymes = input('Enter the word to rhyme with: ')
@@ -67,4 +67,6 @@ if menu == "4":
 else:
     print('ELO')
 
+print('THANKS')
+time.sleep(1)
 print('>>>>>>>>>>>>>>>>>>>>>END OF APP<<<<<<<<<<<<<<<<<<<<<')
