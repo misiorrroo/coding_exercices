@@ -100,8 +100,8 @@ public class HowmanyGrzesio {
                             System.out.println("Komentarz TAZa w Tej sprawie:");
                             System.out.println("https://www.youtube.com/watch?v=1Lhp6XZyRkc");
                         } else if ((n > 10001) && (n < 12000)) {
-                            System.out.println("Zarabiasz:  " + n / 5000 + " Pensji EUROnet'u");
-                            System.out.println("Zarabiasz:  " + n / 2800 + "  Pensji MINIMALNEJ (!) ");
+                            System.out.println("Zarabiasz:  " + (n / 5000) + " Pensji EUROnet'u");
+                            System.out.println("Zarabiasz:  " + (n / 2800) + "  Pensji MINIMALNEJ (!) ");
                             System.out.println(
                                     "Dobry przystanek w drodze do sukcesu ale wiadomo trzeba zapierdalać, nie jesteś gównem no chyba że chcesz tu zostać!");
                             System.out.println("Komentarz TAZa w Tej sprawie:");

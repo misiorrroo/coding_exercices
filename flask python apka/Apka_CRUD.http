@@ -6,17 +6,17 @@ POST http://localhost:5000/users
 Content-Type: application/json
 
 {
-    "username": "Kagdsmil",
-    "city": "gsdgh"
+    "username": "Kamil",
+    "city": "Lodz"
 }
 
 ###
 
-PUT http://localhost:5000/39
+PUT http://localhost:5000/110
 Content-Type: application/json
 
 {
-    "username": "Kamilupdate",
+    "username": "Maciek",
     "city": "Lodz"
 }
 
