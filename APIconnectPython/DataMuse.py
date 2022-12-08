@@ -3,8 +3,8 @@ import json
 from requests.models import Response
 import time
 
-#MisIt's my simple application to looking for worlds, i use opensorce api (https://api.datamuse.com)
-errorek = 'I know the application is written in English but..... ------>>   COŚ SIĘ ZJEBAŁO'
+# MisIt's my simple application to looking for worlds, i use opensorce api (https://api.datamuse.com)
+errorek = 'I know the application is written in English but..... ------>>   Something goes wrong'
 print('Hello, what is your name?')
 user_name = input("GiVE ME NAAAMMMEEEE:")
 print('Hello, ' + user_name)
@@ -23,47 +23,51 @@ menu = input('Choose your number and press ENTER:  ')
 
 if menu == "1":
     rhymes = input('Enter the word to rhyme with: ')
-    response = requests.get(f'https://api.datamuse.com/words?rel_rhy={rhymes}')  #interlinia
+    response = requests.get(
+        f'https://api.datamuse.com/words?rel_rhy={rhymes}')  # interlinia
     data = response.json()
 
     if (response.status_code != requests.codes.ok):
         print(errorek)
     else:
-        print(print(json.dumps(data, indent= 3)))
+        print(print(json.dumps(data, indent=3)))
 
 if menu == "2":
     similarly_word = input('Enter a word to be similar to yours ')
-    response = requests.get(f'https://api.datamuse.com/words?sp={similarly_word}')  
+    response = requests.get(
+        f'https://api.datamuse.com/words?sp={similarly_word}')
     data = response.json()
 
     if (response.status_code != requests.codes.ok):
         print(errorek)
     else:
-        print(print(json.dumps(data, indent= 3)))
+        print(print(json.dumps(data, indent=3)))
 else:
     print('ELO')
 
 if menu == "3":
     sound = input('Find words that sound similar to yours: ')
-    response = requests.get(f'https://api.datamuse.com/words?sl={sound}')  
+    response = requests.get(f'https://api.datamuse.com/words?sl={sound}')
     data = response.json()
 
     if (response.status_code != requests.codes.ok):
         print(errorek)
     else:
-        print(print(json.dumps(data, indent= 3)))
+        print(print(json.dumps(data, indent=3)))
 else:
     print('ELO')
 
 if menu == "4":
-    associated  = input('Enter a word to be strongly associated with your word: ')
-    response = requests.get(f'https://api.datamuse.com/words?rel_trg={associated}')
+    associated = input(
+        'Enter a word to be strongly associated with your word: ')
+    response = requests.get(
+        f'https://api.datamuse.com/words?rel_trg={associated}')
     data = response.json()
 
     if (response.status_code != requests.codes.ok):
         print(errorek)
     else:
-        print(print(json.dumps(data, indent= 3)))
+        print(print(json.dumps(data, indent=3)))
 else:
     print('ELO')
 
