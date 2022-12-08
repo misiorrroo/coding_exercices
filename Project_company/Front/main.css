@@ -1,0 +1,129 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    background-image: url('https://images.assetsdelivery.com/compings_v2/molaruso/molaruso1606/molaruso160600064.jpg');
+    background-repeat: no-repeat;
+    text-shadow: 2px 2px 5px rgb(177, 12, 163);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+
+  h2 {    
+    text-align: left;
+    font-size: 18px;
+    opacity: 0.8;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: rgb(117, 8, 8);
+  }
+
+  h2:hover {
+    text-align: left;
+    font-size: 36px;
+    opacity: 1.0;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: rgb(7, 20, 136);
+  }
+
+  .sociale {
+    color:darkblue;
+    opacity: 0.5;
+    transition:1s;
+    text-decoration: none;
+  }
+
+  .sociale:hover {
+    color:rgb(13, 43, 1);
+    text-decoration: none;
+  }
+
+  h5 {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    opacity: 0.2;
+  }
+
+  h5:hover {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    opacity: 1.0;
+  }
+  
+  .site-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', sans-serif;
+    height: 20px;
+    width: 100%;
+    background: #001b08;
+    opacity: 0.75;
+  }
+  
+  .side-menu-trigger {
+    border: 0;
+    border-radius: 5px;
+    background: #ffffff;
+    
+  }
+  
+  .side-menu {
+    display: flex;
+    box-sizing: border-box;
+    position: absolute;
+    height: 100%;
+    width: 300px;
+    top: 20px;
+    right: -300px;
+    padding: 0;
+    background: #0b1461;
+    transition: 0.7s transform ease-in-out;
+  }
+  
+  .side-menu ul {
+    position: absolute;
+    display: flex;
+    height: calc(100% - 20px);
+    flex-wrap: wrap;
+    margin: 0 10px;
+    padding: 0;
+    list-style-type: none;
+    align-content: flex-start
+  }
+  
+  .side-menu ul li {
+    display: flex;
+    height: 30px;
+    background: #ffffff;
+    flex-basis: 100%;
+    margin-top: 20px;
+    color: #696e9e;
+    border-radius: 5px;
+    overflow: hidden;
+    
+  }
+  
+  .side-menu ul li a {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    text-decoration: none;
+    box-sizing: border-box;
+  }
+  
+  .side-menu-trigger:focus ~ .side-menu, .side-menu:hover {
+    transform: translateX(-300px); 
+  }
+  

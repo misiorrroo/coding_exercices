@@ -1,0 +1,18 @@
+{
+    "python.pythonPath": "C:\\Python39\\python.exe",
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./soloLearn_Python",
+        "-p",
+        "*test.py"
+    ],
+    "python.testing.pytestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.unittestEnabled": false,
+    "java.project.sourcePaths": [
+        ""
+    ],
+    "maven.view": "flat",
+    "python.testing.promptToConfigure": false
+}
