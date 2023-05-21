@@ -1,22 +1,37 @@
-from unicodedata import category
-from chessdotcom import get_player_stats
+from chessdotcom import get_leaderboards, get_player_stats, get_player_game_archives
 import pprint
+import requests
+
 printer = pprint.PrettyPrinter()
 
-#def get_player_ratings(username):
-#    data = get_player_stats(username).json
-#    printer.pprint(data)
 
-#get_player_ratings("Hietmanerro")
+def print_leaderboards():
+    data = get_leaderboards().json
+    categories = data.keys()
 
-def get_player_ratings(username):
-    data = get_player_stats(username).json
-    categories = ['chess_blitz','chess_bullet','chess_daily']
     for category in categories:
         print('Category:', category)
-        print(f"Current: {data[category]['last']['rating']}")
-        print(f"Best: {data[category]['best']['rating']}")
+        for idx, entry in enumerate(data[category]):
+            print(
+                f'Rank: {idx + 1} | Username: {entry["username"]} | Rating: {entry["score"]}')
 
-get_player_ratings("Hietmanerro")
 
-#https://www.youtube.com/watch?v=KYNbHGs-qG4&t=1004s
+def get_player_rating(username):
+    data = get_player_stats(username).json
+    categories = ['chess_blitz', 'chess_rapid', 'chess_bullet']
+    for category in categories:
+        print('Category:', category)
+        print(f'Current: {data[category]["last"]["rating"]}')
+        print(f'Best: {data[category]["best"]["rating"]}')
+        print(f'Best: {data[category]["record"]}')
+
+
+def get_most_recent_game(username):
+    data = get_player_game_archives(username).json
+    url = data['archives'][-1]
+    games = requests.get(url).json()
+    game = games['games'][-1]
+    printer.pprint(game)
+
+
+get_most_recent_game('Hietmanerro')
